@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: "Nunito", sans-serif;
+}
+.hm-navbar {
+    position: fixed;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    color: whitesmoke;
+    border: 1px solid;
+    gap: 10px;
+    padding: 10px;
+    background-color: #080808;
+    transition: transform 0.5s, all;
+}
+.item01-hm,
+.item01a-hm,.item01b-hm
+ {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.item01a-hm{
+    gap: 3px;
+}
+.item01b-hm{
+   color: #CFCCCC;
+}
+.box-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1D1C1C;
+    border-radius: 10px;
+}
+.box-02 {
+    display: flex;
+    justify-content: space-between;
+    color: #CFCCCC;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-03 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    padding-left: 15px;
+    background-color: #2E2D2D;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.container02-hm {
+    padding: 10px;
+    background-color: #1D1C1C;
+}
+button {
+    width: fit-content;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-weight: bold;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+.box-04 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 15px;
+    width: 45%;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+    color: #CFCCCC;
+}
+.language button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1C1C;
+    gap: 5px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.9rem;
+    border: 1px solid grey;
+    color: whitesmoke;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.label-hm{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.label-hm:hover{
+    transform: scale(1.1);
+    color: white;
+    text-decoration: underline;
+}
+.add-playlist{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: transform 1s;
+}
+.add-playlist:hover{
+    background-color:#2e2d2d;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}

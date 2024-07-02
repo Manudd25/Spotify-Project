@@ -1,0 +1,356 @@
+
+html {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+
+main {
+    margin-left: 26rem;
+    background: rgb(27,26,26);
+    background: linear-gradient(0deg, rgb(32, 31, 31) 66%, rgba(53,55,55,1) 100%);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.m-container {
+    min-width: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-navbar-artists, .m-navbar-albums, 
+.m-navbar-charts, .m-navbar-playlist {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.m-navbar-artists h3, .m-navbar-albums h3,
+.m-navbar-charts h3, .m-navbar-playlist h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;   
+}
+
+.m-navbar-artists h4, .m-navbar-albums h4,
+.m-navbar-charts h4, .m-navbar-playlist h4 {
+    color: lightgray;
+}
+
+.m-popular-artists, .m-popular-albums,
+.m-feature-charts, .m-spotify-playlists {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.m-artist-list, .m-album-list, 
+.m-chart-list, .m-spotify-list {
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5rem;
+}
+
+.m-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.m-name {
+    color: white;
+    font-weight: 500;
+    text-align: left;
+}
+
+.m-artist {
+    color: lightgray;
+    font-size: 12px;
+}
+
+/* artist-list*/
+
+.m-img-artist-1 {
+    background-image: url(./img/img-artists/austin-neill-hgO1wFPXl3I-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.m-img-artist-2 {
+    background-image: url(./img/img-artists/atikh-bana-n19qtMX3nNY-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-artist-3 {
+    background-image: url(./img/img-artists/chris-7WfcHibcR3Y-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-artist-4 {
+    background-image: url(./img/img-artists/geo-chierchia-o-9-fSSiCT0-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-artist-5 {
+    background-image: url(./img/img-artists/matty-adame-nLUb9GThIcg-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-artist-6 {
+    background-image: url(./img/img-artists/warren-uuVguyksViA-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* album - artist*/
+
+.m-img-album-1 {
+    background-image: url(./img/img-albums/aditya-chinchure-ZhQCZjr9fHo-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-album-2 {
+    background-image: url(./img/img-albums/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-album-3 {
+    background-image: url(./img/img-albums/ilyuza-mingazova-6UhgG8kpg6U-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-album-4 {
+    background-image: url(./img/img-albums/jane-palash-BMVVT_rSIzY-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-album-5 {
+    background-image: url(./img/img-albums/keagan-henman-v_90XPUIHRs-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-album-6 {
+    background-image: url(./img/img-albums/priscilla-du-preez-NP3KdAQc6c4-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* feature charts */
+
+.m-img-chart-1 {
+    background-image: url(./img/img-charts/pawel-szvmanski-60SOPmKpwVM-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-chart-2 {
+    background-image: url(./img/img-charts/rashid-khreiss-sDHrgXXCkpU-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-chart-3 {
+    background-image: url(./img/img-charts/rupam-dutta-5OMff2RDqPs-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-chart-4 {
+    background-image: url(./img/img-charts/tory-hallenburg-E0UKvm8rb8Q-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-chart-5 {
+    background-image: url(./img/img-charts/volodymyr-hryshchenko-D5_cfqMAY0Y-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-chart-6 {
+    background-image: url(./img/img-charts/zalfa-imani-krmhTfAWwlk-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Spotify Playlist */
+
+.m-img-playlist-1 {
+    background-image: url(./img/img-spotify-playlist/antonino-visalli-RNiBLy7aHck-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-playlist-2 {
+    background-image: url(./img/img-spotify-playlist/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-playlist-3 {
+    background-image: url(./img/img-spotify-playlist/paul-fiedler-_n6NCjU4ALA-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-playlist-4 {
+    background-image: url(./img/img-spotify-playlist/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-playlist-5 {
+    background-image: url(./img/img-spotify-playlist/shifaaz-shamoon-okVXy9tG3KY-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.m-img-playlist-6 {
+    background-image: url(./img/img-spotify-playlist/wil-stewart-K_TbABnVzHo-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.m-card i {
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+    visibility: hidden;
+    width: 50px;
+    height: 50px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 25px 19px;
+}
+
+
+
+
+.m-card:hover {
+    background-color: rgba(250, 249, 249, 0.021);
+    width: 210px;
+    height: 300px;
+    cursor: pointer;
+    padding: 5px;
+
+    i {
+        visibility: visible;
+    }
+}

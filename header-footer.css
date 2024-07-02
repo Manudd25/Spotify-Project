@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    position: relative;
+    height: 200vh;
+    font-family: "Nunito" ,Arial, Helvetica, sans-serif;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    font-size: 1rem;
+    padding: 0 30px;
+    min-width: 400px;
+    position: sticky;
+    top: 0;
+    margin-left: 420px;
+  }
+  header div img {
+    font-size: 15px;
+    color: aqua;
+  }
+   .sign-log-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    gap: 40px;
+   }
+   .signup:hover {
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+   .login {
+    color: black;
+    background-color: white;
+    padding: 12px;
+    border-radius: 35px;
+    width: 100px;
+    text-align: center;
+    transition: all 0.1s;
+   }
+   .login:hover,
+   .signupfree:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+   footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 86px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+    min-width: 900px;
+    color: white;
+    background: linear-gradient(to right, rgb(248, 4, 175), rgb(44, 170, 243));
+    border: 10px solid rgba(0, 0, 0, 0.9);
+    position: fixed;
+    bottom: 0px;
+   }
+   footer p:nth-of-type(1) {
+    font-size: 0.9rem;
+    font-weight: bolder;
+   }
+   .signupfree {
+    color: black;
+    background-color: white;
+    padding: 12px;
+    border-radius: 35px;
+    min-width: 130px;
+    text-align: center;
+    margin-left: 80px;
+    transition: all 0.1s;
+   }
+ .bottom-menue {
+    color: rgb(133, 129, 129);
+    background-color: rgba(0, 0, 0, 0.95);
+    font-weight: 700;
+    padding: 25px;
+    min-width: 400px;
+    margin-left: 420px;
+    margin-bottom: 200px;
+ }
+ .bottom-menue p,
+ .bottom-menue i {
+    color: white;
+ }
+.text-bottom-menue {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(34, 31, 31);
+    padding: 25px;
+}
+.bottom-colums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    line-height: 25px;
+}
+.bottom-colums ul p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.bottom-colums ul a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(133, 129, 129);
+    font-size: 0.85rem;
+}
+.bottom-colums ul a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.social-media div {
+    background-color: #292929;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social-media div:hover {
+    background-color: #686767;
+}
+.social-media div i {
+    font-size: 0.8rem;
+}
+@media (width < 990px) {
+    .text-bottom-menue {
+        display: block;
+    }
+}
+.spotify-ab {
+    font-size: 0.75rem;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
