@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     text-align:start;
+    box-shadow: 100px 100px 100px rgb(110, 110, 214, 0.485);
 }
 
 .m-background-album h1, p {
@@ -84,8 +85,8 @@
    }
 
    .m-container-3 {
-    max-width: 800px;
-    width: 80%;
+    max-width: 900px;
+    width: 100%;
    }
 
    .m-container-3 h2 {
@@ -105,7 +106,7 @@
 .row {
     display: grid;
     align-items: center;
-    grid-template-columns: 5% 10% 55% 20% 10%;
+    grid-template-columns: 5% 20% 20% 20% 20%;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -121,6 +122,48 @@
 
    .streams, .duration {
     text-align: right;
+   }
+
+   .artist-pick {
+    position: absolute;
+    margin-left: 53%;
+   }
+
+   .artist-pick .title, .album-type {
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+   }
+   
+   .artist-pick .title {
+    position: absolute;
+    bottom: 1%;
+   }
+
+   .artist-pick .album-type {
+    position: absolute;
+    bottom: 10%;
+   }
+
+   .artist-pick .ads {
+    position: absolute;
+    bottom: 60%;
+    font-size: 14px;
+    border: 1px solid black;
+    color: black;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 15px;
+    text-align: center;
+   }
+
+   .album-img {
+    background: url(./img/img-albums/reinhart-julian-79-UsUCtTYA-unsplash.jpg);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10%;
    }
 
    .image img {
