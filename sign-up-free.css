@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* position: relative; */
+    height: 200vh;
+    font-family: "Nunito" ,Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+  }
+
+  .spotify-icon-s i {
+    font-size: 2.6rem;
+    padding: 30px;
+  }
+
+  form label {
+    font-size: 0.9rem;
+    font-weight: bold;    
+  }
+
+  .input-email input {
+    margin: 10px 0;
+    outline: none;
+    background-color: black;
+    border: 0.1px solid rgb(134, 132, 132);
+    border-radius: 3px;
+  }
+
+  .input-email input:hover {
+    border: 0.5px solid white;
+  }
+
+  .input-email input:focus {
+    border: 2px solid white;
+  }
+
+  .input-email input[type="text"] {
+    padding: 15px 12px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 550;
+    width: 324px;
+  }
+
+  .next-s {
+    background: #1ED760;
+    width: 324px;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 35px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .divider {
+    display: flex;
+    flex-direction: row;  
+    margin-top: 15px;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: "";
+    border-bottom: rgb(134, 132, 132) 1px solid;
+    width: 140px;
+    margin: 10px 13px;
+  }
+
+
+  .sign-up-div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-bottom: 0.2px solid rgb(58, 55, 55);
+    padding-bottom: 27px;
+  }
+
+  .sign-up-div .buttons {
+    border: 0.1px solid rgb(134, 132, 132);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin: 5px 0;
+    padding: 12px 20px;
+    border-radius: 35px;
+    width: 324px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sign-up-div .buttons:hover {
+    border: 0.1px solid white;
+  }
+
+  .buttons span {
+   padding-left: 50px;
+  }
+
+  .buttons span:nth-of-type(2) {
+    padding-left: 4px;
+  }
+
+  .question {
+    color: rgb(134, 132, 132);
+    font-weight: 550;
+    margin-top: 15px
+  }
+
+  .question a {
+    color: white;
+    font-weight: 500;
+  }
+
+  .policy-terms {
+    margin-top: 270px;
+    color: #A7A7A7;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .policy-terms a {
+    color: #A7A7A7;
+  }
+
+
+
