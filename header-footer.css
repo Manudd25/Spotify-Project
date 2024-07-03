@@ -87,6 +87,10 @@
     margin-left: 80px;
     transition: all 0.1s;
    }
+
+   #signupfree {
+    text-decoration: none;
+   }
  .bottom-menue {
     color: rgb(133, 129, 129);
     background-color: rgba(0, 0, 0, 0.95);
