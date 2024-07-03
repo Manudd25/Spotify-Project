@@ -85,8 +85,8 @@
    }
 
    .m-container-3 {
-    max-width: 800px;
-    width: 80%;
+    max-width: 900px;
+    width: 100%;
    }
 
    .m-container-3 h2 {
@@ -106,7 +106,7 @@
 .row {
     display: grid;
     align-items: center;
-    grid-template-columns: 5% 10% 30% 30% 25%;
+    grid-template-columns: 5% 20% 20% 20% 20%;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -126,7 +126,7 @@
 
    .artist-pick {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 53%;
    }
 
    .artist-pick .title, .album-type {
@@ -135,12 +135,12 @@
     text-shadow: 2px 2px 2px black;
    }
    
-   .title {
+   .artist-pick .title {
     position: absolute;
     bottom: 1%;
    }
 
-   .album-type {
+   .artist-pick .album-type {
     position: absolute;
     bottom: 10%;
    }
