@@ -110,6 +110,12 @@
     transition: background-color 0.3s, color 0.3s;
 }
 
+.row i {
+    visibility: hidden;
+}
+
+
+
    .grid-item {
     padding: 5px;
 }
@@ -117,12 +123,32 @@
     .row:hover {
     background-color: rgba(255, 255, 255, 0.137);
     padding: 5px;
+
+    i {
+        visibility: visible;
+    }
+
+    .rank {
+        visibility: hidden;
+    }
    }
 
 
    .streams, .duration {
     text-align: right;
    }
+
+
+   .m-see-more {
+    font-size: small;
+    cursor: pointer;
+   }
+
+   .m-see-more:hover {
+    color: lightgray;
+   }
+
+
 
    .artist-pick {
     position: absolute;
