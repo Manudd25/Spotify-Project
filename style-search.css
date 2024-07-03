@@ -189,13 +189,3 @@ main {
 
 
 
-. @media (max-width: 768px) {
-    .search-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(8, auto);
-    }
-}
-
-footer {
-    height: fit-content;
-}
