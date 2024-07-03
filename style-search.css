@@ -1,0 +1,201 @@
+html {
+    background-color: black;
+    overflow-x: hidden;
+
+}
+
+
+
+main {
+
+
+    background: linear-gradient(0deg, rgb(32, 31, 31) 66%, rgba(53, 55, 55, 1) 100%);
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+.browse {
+    background-color: black;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.search-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 15px;
+    background-color: black;
+    min-width: 400px;
+    color: white;
+}
+
+.grid-item0hm {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: start;
+    width: 16vw;
+    min-width: 10vw;
+    height: 20vh;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.5vw;
+}
+
+.grid-item0hm:nth-child(1) {
+    background-image: url(img/img-search/blue.jpg);
+}
+
+.grid-item0hm:nth-child(2) {
+    background-image: url(img/img-search/brown.jpg);
+}
+
+.grid-item0hm:nth-child(3) {
+    background-image: url(img/img-search/car.jpg);
+}
+
+.grid-item0hm:nth-child(4) {
+    background-image: url(img/img-search/cream.jpg);
+}
+
+.grid-item0hm:nth-child(5) {
+    background-image: url(img/img-search/discover.jpg);
+}
+
+.grid-item0hm:nth-child(6) {
+    background-image: url(img/img-search/equal.jpg);
+}
+
+.grid-item0hm:nth-child(7) {
+    background-image: url(img/img-search/fresh.jpg);
+}
+
+.grid-item0hm:nth-child(8) {
+    background-image: url(img/img-search/hiphop.jpg);
+}
+
+.grid-item0hm:nth-child(9) {
+    background-image: url(img/img-search/indie.jpg);
+}
+
+.grid-item0hm:nth-child(10) {
+    background-image: url(img/img-search/kpop.jpg);
+}
+
+.grid-item0hm:nth-child(11) {
+    background-image: url(img/img-search/live\ events.jpg);
+}
+
+.grid-item0hm:nth-child(12) {
+    background-image: url(img/img-search/liveevents.jpg);
+}
+
+.grid-item0hm:nth-child(13) {
+    background-image: url(img/img-search/made\ for\ u.jpg);
+}
+
+.grid-item0hm:nth-child(14) {
+    background-image: url(img/img-search/mood.jpg);
+}
+
+.grid-item0hm:nth-child(15) {
+    background-image: url(img/img-search/new\ podcasts.jpg);
+}
+
+.grid-item0hm:nth-child(16) {
+    background-image: url(img/img-search/only\ on\ spotify.jpg);
+}
+
+.grid-item0hm:nth-child(17) {
+    background-image: url(img/img-search/fresh.jpg);
+
+}
+
+.grid-item0hm:nth-child(18) {
+    background-image: url(img/img-search/cream.jpg);
+}
+
+.grid-item0hm:nth-child(19) {
+    background-image: url(img-search/discover.jpg);
+}
+
+.grid-item0hm:nth-child(20) {
+    background-image: url(img/img-search/equal.jpg);
+}
+
+.grid-item0hm:nth-child(21) {
+    background-image: url(img/img-search/fresh.jpg);
+}
+
+.grid-item0hm:nth-child(22) {
+    background-image: url(img/img-search/indie.jpg);
+}
+
+.grid-item0hm:nth-child(23) {
+    background-image: url(img/img-search/kpop.jpg);
+}
+
+.grid-item0hm:nth-child(24) {
+    background-image: url(img/img-search/workout.jpg);
+}
+
+.grid-item0hm:nth-child(25) {
+    background-image: url(img/img-search/schlager.jpg);
+}
+
+.grid-item0hm:nth-child(26) {
+    background-image: url(img/img-search/radar.jpg);
+}
+
+.grid-item0hm:nth-child(27) {
+    background-image: url(img/img-search/mood.jpg);
+}
+
+.grid-item0hm:nth-child(28) {
+    background-image: url(img/img-search/new\ podcasts.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. @media (max-width: 768px) {
+    .search-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, auto);
+    }
+}
+
+footer {
+    height: fit-content;
+}
