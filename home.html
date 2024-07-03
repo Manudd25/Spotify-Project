@@ -5,22 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="icon" href="./img/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="header-footer.css">
     <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="artist-playlist.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/619054994e.js" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
+    
 </head>
 <body>
+
 
 <!--top sticky header-->
  
@@ -28,8 +25,6 @@
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5F6368"><path d="M384-96 0-480l384-384 68 68-316 316 316 316-68 68Z"/></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5F6368"><path d="m288-96-68-68 316-316-316-316 68-68 384 384L288-96Z"/></svg>
-                <!-- <i class="fa-solid fa-chevron-left"></i>
-                <i class="fa-solid fa-chevron-right"></i> -->
             </div>
             <div class="sign-log-div">
                 <div class="signup">Sign up</div>
@@ -131,11 +126,12 @@
 
 
 
-                <div class="m-card">
+                <a href="./artist-playlist.html"><div class="m-card">
                 <div class="m-img-artist-1"></div>
                 <p class="m-name">David Holmes</p>
                 <p class="m-artist">Artist</p>
                 <i class="fa-solid fa-play fa-xl" style="color: #030303;"></i>
+                </a>
                 
                 </div>
 
@@ -174,7 +170,7 @@
 
 
 
-                 <div class="m-card">
+                <div class="m-card">
 
                 <div class="m-img-artist-5"></div>
                 <p class="m-name">DJ Kaleb</p>
@@ -205,9 +201,8 @@
             <div class="m-popular-albums">
 
                 <div class="m-navbar-albums">
-                <div><h3>Popular albums</h3></div>
-                <div><h4>Show all</h4></div>
-                <i class="fa-solid fa-play fa-xl" style="color: #030303;"></i>
+                <h3>Popular albums</h3>
+                <h4>Show all</h4>
                 </div>
 
 
@@ -293,7 +288,6 @@
                 <div class="m-navbar-charts">
                 <div><h3>Feature Charts</h3></div>
                 <div><h4>Show all</h4></div>
-                <i class="fa-solid fa-play fa-xl" style="color: #030303;"></i>
                 </div>
 
 
@@ -378,7 +372,6 @@
                 <div class="m-navbar-playlist">
                 <div><h3>Spotify Playlist</h3></div>
                 <div><h4>Show all</h4></div>
-                <i class="fa-solid fa-play fa-xl" style="color: #030303;"></i>
                 </div>
 
 
@@ -551,7 +544,7 @@
         <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
     </div>
 
-
+    <div class="signupfree">Sign up free</div>
 
 </body>
 </html>

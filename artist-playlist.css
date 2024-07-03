@@ -1,0 +1,152 @@
+
+
+
+.m-container-1 {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-background-album {
+    height: 400px;
+    background: url(/img/img-albums/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+}
+
+.m-background-album h1, p {
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+}
+
+.m-background-album h1 {
+    color: white;
+    font-size: 96px;
+    font-weight: 800;
+    margin-top: 200px;
+}
+
+.m-background-album p {
+    color: white;
+    font-weight: 600;
+}
+
+
+.m-container-2 {
+    min-width: 100vw;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.m-subcontainer {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-top: 1.7rem;
+
+
+}
+
+.m-subcontainer i {
+    width: 50px;
+    height: 50px;
+    background-color: #1fdf64;
+    border-radius: 50%;
+    padding: 25px 19px;
+    transition: all 0.3s;
+}
+
+
+.m-subcontainer .follow {
+    width: 75px;
+    height: 32px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 3px 15px;
+    border-radius: 29px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+   }
+
+   .m-subcontainer div i {
+    background-color: #1fdf6500;
+    padding-bottom: 2.5rem;
+   }
+
+   .follow:hover,
+   div i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+
+   .m-container-3 {
+    max-width: 800px;
+    width: 80%;
+   }
+
+   .m-container-3 h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 1rem;
+   }
+
+   .grid {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5% 10% 55% 20% 10%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+   .grid-item {
+    padding: 5px;
+}
+
+    .row:hover {
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 5px;
+   }
+
+
+   .streams, .duration {
+    text-align: right;
+   }
+
+   .image img {
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+   }
+
+   .m-p {
+    margin-top: 5px;
+    font-size: small;
+    color: lightgray;
+   }
+
+   .m-p:hover {
+    color: white;
+   }
+
+    .m-cards-advs {
+    margin-top: 550px;
+   }
+  
+
+
+
+
+
