@@ -17,7 +17,7 @@
     height: 64px;
     font-size: 1rem;
     padding: 0 30px;
-    min-width: 470px;
+    min-width: 480px;
     position: sticky;
     top: 0;
     margin-left: 420px;
@@ -68,6 +68,11 @@
     position: fixed;
     bottom: 0px;
    }
+
+   .p-div {
+    margin-top: 15px;
+   }
+
    footer p:nth-of-type(1) {
     font-size: 0.9rem;
     font-weight: bolder;
