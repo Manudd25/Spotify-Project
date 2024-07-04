@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    font-family: "Nunito" ,Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgb(37, 36, 36), rgb(0, 0, 0));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-body {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    min-width: 734px;    
+    background: linear-gradient(to top, rgb(27, 24, 24), rgb(10, 10, 10));
+    margin: 35px 0;
+  }
+
+  .spotify-icon-s i {
+    font-size: 2.6rem;
+    padding: 30px;
+  }
+
+  .h1-login {
+    font-size: 1.9rem;
+  }
+
+  .sign-up-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    border-bottom: 0.2px solid rgb(43, 41, 41);
+    padding-bottom: 35px;
+    min-width: 550px;
+  }
+
+  .sign-up-div .buttons {
+    border: 0.1px solid rgb(134, 132, 132);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin: 5px 0;
+    padding: 12px 20px;
+    border-radius: 35px;
+    width: 324px;
+    display: flex;
+    align-items: center;
+  }
+
+  .sign-up-div .buttons:hover {
+    border: 0.1px solid white;
+  }
+
+  .buttons span {
+   padding-left: 50px;
+  }
+
+  form label {
+    font-size: 0.9rem;
+    font-weight: bold;   
+  }
+
+  .label {
+    margin-top: 7px; 
+  }
+
+  .input-email input {
+    margin: 10px 0;
+    outline: none;
+    background-color: black;
+    border: 0.1px solid rgb(134, 132, 132);
+    border-radius: 3px;
+  }
+
+  .input-email input:hover {
+    border: 0.5px solid white;
+  }
+
+  .input-email input:focus {
+    border: 2px solid white;
+  }
+
+  .input-email input[type="text"] {
+    padding: 15px 12px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 550;
+    width: 324px;
+  }
+
+  .next-s {
+    background: #1ED760;
+    width: 324px;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 35px;
+    margin: 15px 0;
+    cursor: pointer;
+  }
+
+  .question {
+    color: rgb(134, 132, 132);
+    font-weight: 550;
+    border-bottom: 0.2px solid rgb(43, 41, 41);
+    min-width: 550px;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .question a {
+    color: white;
+    font-weight: 500;
+  }
+
+  .question a:hover {
+    color: #1ED760;
+  }
+
+  #question {
+    border-bottom: none;
+    padding: 80px 0;
+  }
+
+  .policy-terms {
+    width: 100%;
+    color: #A7A7A7;
+    font-size: 12px;
+    text-align: center;
+    padding: 35px 0;
+    background: linear-gradient(to right, rgb(27, 24, 24), rgb(10, 10, 10));
+  }
+
+  .policy-terms a {
+    color: #A7A7A7;
+  }
+
+
+
