@@ -33,11 +33,15 @@
     font-weight: bold;
     gap: 40px;
    }
+
+   .sign-log-div a {
+    text-decoration: none;
+   }
    .signup:hover {
     color: white;
     transform: scale(1.1);
-    cursor: pointer;
    }
+
    .login {
     color: black;
     background-color: white;
@@ -69,7 +73,7 @@
     bottom: 0px;
    }
 
-   .p-div {
+    .p-div {
     margin-top: 15px;
    }
 
