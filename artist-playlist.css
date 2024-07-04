@@ -163,11 +163,15 @@
    .artist-pick .title {
     position: absolute;
     bottom: 1%;
+    margin-left: 1rem;
+
    }
 
    .artist-pick .album-type {
     position: absolute;
     bottom: 10%;
+    margin-left: 1rem;
+
    }
 
    .artist-pick .ads {
@@ -180,6 +184,8 @@
     background-color: rgba(255, 255, 255, 0.801);
     border-radius: 15px;
     text-align: center;
+    margin-left: 1.3rem;
+
    }
 
    .album-img {
