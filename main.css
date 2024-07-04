@@ -65,7 +65,7 @@ main {
     text-align: left;  
 }
 
-    .m-artist-list, .m-spotify-list a {
+.m-artist-list a, .m-spotify-list a {
     text-decoration: none;
 }
 
