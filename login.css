@@ -75,7 +75,7 @@
   .input-email input {
     margin: 10px 0;
     outline: none;
-    background-color: black;
+    background-color: rgb(20, 19, 19);
     border: 0.1px solid rgb(134, 132, 132);
     border-radius: 3px;
   }
