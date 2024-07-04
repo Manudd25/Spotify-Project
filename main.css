@@ -65,6 +65,10 @@ main {
     text-align: left;  
 }
 
+    .m-artist-list, .m-spotify-list a {
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 560px) {
     

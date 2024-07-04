@@ -120,7 +120,7 @@ main {
 }
 
 .grid-item0hm:nth-child(19) {
-    background-image: url(img-search/discover.jpg);
+    background-image: url(img/img-search/discover.jpg);
 }
 
 .grid-item0hm:nth-child(20) {
@@ -159,8 +159,13 @@ main {
     background-image: url(img/img-search/new\ podcasts.jpg);
 }
 
+.p-div .p1 {
+    margin-bottom: 15px;
+}
 
-
+.p-div .p2 {
+    margin-bottom: 14px;
+}
 
 
 
