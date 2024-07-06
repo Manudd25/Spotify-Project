@@ -19,7 +19,7 @@ Improve Team Collaboration: Work effectively as a team, utilizing version contro
 5. Technology Stack
    
 Frontend:
-HTML5, CSS3.
+HTML5, CSS.
 
 7. Learning Outcomes
    
